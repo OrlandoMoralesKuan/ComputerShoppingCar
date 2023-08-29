@@ -60,15 +60,13 @@ header{
 }
 
 .informacion{
-    height: 160px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 7px;
 }
-
-
 
 .informacion>p:first-child{
     font-family: sans-serif;
@@ -89,11 +87,11 @@ header{
 .informacion button{
     background-color: #263143;
     width: 100px;
-    height: 25px;
+    height: 20px;
     border-radius: 10px;
     border: none;
 
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 300;
     cursor: pointer;
 }
